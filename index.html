@@ -41,7 +41,7 @@
         <br><br>
 
         <!-- GAMBIARRA COM TABELA COM SOBRE NÓS E REDES SOCIAIS -->
-        <table Border="0" cellspace="0" cellpadding="10">
+        <table Border="0" cellpadding="10" align="center">
             <tr>
 
                 <!-- SOBRE NÓS -->
@@ -56,8 +56,26 @@
 
         <br><br>
         
+        <!-- SEÇÃO DE CARROSSEL COM BANNERS DOS PRODUTOS DA LOJA -->
         <section class="carrossel-banner">
-            <img src="" alt="Carrossel com banners" title="Carrossel com banners">
+            <img src="img/banner-lorem.png" alt="Carrossel com banners" title="Carrossel com banners" height="300px" width="100%">
+        </section>
+
+        <!-- SEÇÃO DE CARROSSEL COM LOGOS DAS MARCAS QUE TEMOS NA NOSSA LOJA -->
+        <section class="carrossel-parceiros">
+            <img src="img/banner-lorem.png" alt="Carrossel contendo as marcas que temos" title="Carrossel contendo as marcas que temos" height="300px" width="100%">
+        </section>
+
+        <!-- SEÇÃO COM AS COLEÇÕES DE INVERNO E VERÃO -->
+        <section class="colecao-inverno-verao">
+
+            <!-- GAMBIARRA PARA COLOCAR COMO COLUNAS AS COLEÇÕES DE VERÃO E INVERNO -->
+            <table Border="0" Align="center" cellpadding="30">
+                <tr>
+                    <th><img src="img/sobre-nos-adelis.png" alt="Roupas de Outono/Inverno" title="Roupas de Outono/Inverno" width="300"></th>
+                    <th><img src="img/sobre-nos-adelis.png" alt="Roupas de Primavera/Verão" title="Roupas de Primavera/Verão" width="300"></th>
+                </tr>
+            </table>
         </section>
     </main> <!-- FIM DO CONTEÚDO PRINCIPAL -->
 
@@ -65,6 +83,57 @@
 
     <!-- RODAPÉ -->
     <footer Align="center">
+
+        <!-- SEÇÃO DE CADASTRO -->
+        <section>
+
+            <!-- TÍTULO DO FORMULÁRIO -->
+            <h3>FAÇA PARTE DO ADELIS AQUI</h3>
+
+            <!-- COMEÇO DA GAMBIARRA PARA COLOCAR BORDA NO FORMULÁRIO -->
+            <table Border="1" Align="center">
+                <th>
+                    <!-- FORMULÁRIO DE CADASTRO -->
+                    <form action="#" method="post">
+
+                        <!-- CAMPO NOME -->
+                        <img src="img/usuario-icone.png" alt="Usuário" width="30">
+                        <input type="text" name="nome-user" placeholder="Digite seu nome completo" required>
+
+                        <br>
+
+                        <!-- CAMPO E-MAIL -->
+                        <img src="img/email-icone.png" alt="E-mail" width="30">
+                        <input type="email" name="email-user" placeholder="Digite seu e-mail" required>
+
+                        <br>
+
+                        <!-- CAMPO TELEFONE -->
+                        <img src="img/telefone-icone.png" alt="Cartão de crédito" width="30">
+                        <input type="tel" name="telefone-user" placeholder="(xx)xxxxx-xxxx" maxlength="11" required>
+
+                        <br>
+
+                        <!-- CAMPO DATA DE NASCIMENTO -->
+                        <img src="img/calendar-icone.png" alt="Data de nascimento" width="30">
+                        <input type="text" name="data-nascimento" placeholder="dd/mm/aaaa" maxlength="10" required>
+                
+                        <br>
+
+                        <!-- CAMPO SENHA -->
+                        <img src="img/cadeado-icone.png" alt="Senha" width="30">
+                        <input type="password" name="senha-user" placeholder="Crie sua senha" minlength="6" maxlength="30" required>
+
+                        <br><br>
+
+                        <!-- BOTÃO DE CADASTRAR OS DADOS -->
+                        <button type="submit">CADASTRAR DADOS</button>
+                    </form>
+                </th>
+            </table> <!-- FIM DA TABELA -->
+        </section>
+
+        <br>
 
         <!-- COPYRIGHT -->
         <p><small>Copyright 2024 - Todos os direitos reservados &copy; Adelis</small></p>
