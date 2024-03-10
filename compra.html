@@ -27,6 +27,139 @@
     <main>
         <form action="#" method="post">
             
+            <!-- CAMPO DE DADOS PESSOAIS -->
+            <fieldset class="dados-pessoais">
+
+                <!-- TÍTULO DO CAMPO -->
+                <legend><strong>DADOS PESSOAIS</strong></legend>
+
+                <!-- NOME -->
+                <label>Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" minlength="4" required>
+
+                <!-- DATA DE NASCIMENTO -->
+                <label>Data de nascimento</label>
+                <input type="date" name="data-nascimento" required>
+
+                <!-- TELEFONE -->
+                <label>Telefone</label>
+                <input type="tel" name="telefone" placeholder="(xx)xxxxx-xxxx" minlength="11" maxlength="11" required>
+
+                <!-- CPF -->
+                <label>CPF</label>
+                <input type="text" name="cpf-usuario" placeholder="xxx.xxx.xxx-xx" maxlength="14" required>
+
+                <!-- E-MAIL -->
+                <label>E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+
+                <!-- SEXO -->
+                <label>Sexo</label>
+                <select name="sexo" required>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+            </fieldset>
+
+            <!-- CAMPO DE ENDEREÇO -->
+            <fieldset class="endereco">
+
+                <!-- TÍTULO DO CAMPO -->
+                <legend><strong>ENDEREÇO</strong></legend>
+
+                <label>Rua</label>
+                <input type="text" name="rua" placeholder="Insira sua rua" required>
+
+                <label>Bairro</label>
+                <input type="text" name="bairro" placeholder="Insira seu bairro" required>
+
+                <label>Número da residência</label>
+                <input type="number" name="numero-residencia" placeholder="Digite número da residência" required>
+
+                <label>Complemento</label>
+                <select name="complemento" required>
+                    <option value="casa">Casa</option>
+                    <option value="apartamento">Apartamento</option>
+                    <option value="condominio-fechado">Condomínio Fechado</option>
+                </select>
+
+                <label>Sugestão de entrega</label>
+                <input type="text" name="sugestao-entrega" placeholder="Digite informações úteis">
+
+            </fieldset>
+            
+            <!-- DADOS DE COMPRA -->
+            <fieldset class="pagamento">
+
+                <!-- TÍTULO DO CAMPO -->
+                <legend><strong>PAGAMENTO</strong></legend>
+
+                <!-- FIELDSET PARA PAGAMENTO COM CARTÃO DE CRÉDITO -->
+                <fieldset class="pagar-cartao">
+
+                    <!-- TÍTULO DO CAMPO -->
+                    <legend>Cartão de crédito</legend>
+
+                    <!-- NÚMERO DO CARTÃO -->
+                    <label>Número do cartão</label>
+                    <input type="number" name="numero-cartao" placeholder="Número do cartão *" required>
+
+                    <!-- NOME DO CARTÃO -->
+                    <label>Nome do cartão</label>
+                    <input type="text" name="nome-cartao" placeholder="Nome que está no cartão" minlength="4" required>
+
+                    <!-- DATA DE VALIDADE -->
+                    <label>Data de validade</label>
+                    <input type="text" name="data-validade" placeholder="MM/AA *" maxlength="5" required>
+
+                    <!-- CÓDIGO DE SEGURANÇA -->
+                    <label>Código de segurança</label>
+                    <input type="text" name="codigo-seguranca-cartao" placeholder="CVV *" maxlength="3" required>
+
+                </fieldset>
+                
+                <!-- FIELDSET PARA PAGAMENTO COM PIX-->
+                <fieldset class="pagar-pix">
+
+                    <!-- TÍTULO DO CAMPO -->
+                    <legend><strong>PIX</strong></legend>
+
+                    <!-- INSTRUÇÃO -->
+                    <p>Em caso de pagamento por via PIX, a chave para pagar é o CNPJ: <strong>12.345.678/9101-12</strong></p>
+
+                </fieldset>
+
+            </fieldset>
+
+            <!-- CAMPO PARA OPINIÃO DO COMPRADOR -->
+            <fieldset>
+                
+                <!-- TÍTULO DO CAMPO -->
+                <legend><strong>Fale um pouco sobre sua experiência com nosso site</strong></legend>
+                <textarea name="opiniao-comprador" cols="50" rows="7" style="resize: none;"></textarea>
+
+            </fieldset>
+
+            <!-- CAMPOS DO TERMOS DE PRIVACIDADE -->
+            <fieldset>
+
+                <!-- TÍTULO DO CAMPO -->
+                <legend><strong>TERMOS DE PRIVACIDADE</strong></legend>
+
+                <!-- TERMOS FICTÍCIO -->
+                <p align="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque atque, alias voluptatibus dignissimos perferendis porro ratione distinctio natus aliquid similique quos officiis mollitia fuga excepturi corrupti impedit facilis. Amet, fugiat? Quidem aliquam architecto labore saepe tempora rerum, doloremque sint eveniet sapiente quisquam sit officia a ad nesciunt aliquid quo voluptatum. Ducimus ex recusandae sit vitae tempora necessitatibus et sint ratione. Quos consectetur, obcaecati voluptatibus cum quod vero rerum tempora earum odit asperiores omnis assumenda. Cumque pariatur laborum impedit, numquam eligendi necessitatibus consectetur qui culpa quisquam dignissimos a ex tempore quidem. Quae tenetur in ipsum dignissimos fugiat autem repudiandae impedit corporis iure perferendis doloribus beatae consequatur exercitationem architecto adipisci debitis iusto nisi, amet provident earum quia? Officia ad perferendis similique dolor.</p>
+                    
+                <!--CHECKBOX ACEITO TERMOS-->
+                <input type="checkbox" name="Aceito-termo" required>
+                <label>Li e aceito os termos de contrato</label>
+                    
+                <!--CHECKBOX ACEITO NOVIDADES-->
+                <input type="checkbox" name="Aceito-news">
+                <label>Aceito receber novidades da loja</label>
+            </fieldset>
+
             <br>
 
             <!-- BOTÃO DE REALIZAR A COMPRA -->
