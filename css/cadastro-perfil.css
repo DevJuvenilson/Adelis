@@ -5,4 +5,109 @@
 
 body{
     background-color: #96D4B3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main{
+    padding-top: 30px;
+    width: 40%;
+    height: 420px;
+    background-color: #05957B;
+    margin: 0 auto;
+    position: relative;
+    top: 15%;
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+}
+
+main h1{
+    margin-top: -65px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    color: #657159;
+    text-align: justify;
+}
+
+main img{
+    width: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-left: 50px;
+    border: none;
+    border-radius: 15px;
+}
+
+input.nome{
+    background-image: url(../html/img/Cadastro/icone-usuario\(32px\).png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.data{
+    background-image: url(../html/img/Cadastro/calendar.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.tel{
+    background-image: url(../html/img/Cadastro/telefone.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.cpf{
+    background-image: url(../html/img/Cadastro/cpf.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email{
+    background-image: url(../html/img/Cadastro/e-mail.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.senha{
+    background-image: url(../html/img/Cadastro/cadeado-seguro\(32px\).png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.submit{
+    color: #fff;
+    background-color: #00EC97;
+    border: 2px solid #00AEEA;
+    padding: 5px 20px;
+    height: 45px;
+    width: 25%;
+    background: linear-gradient(to bottom, #00EC97, #00AEEA);
+}
+
+input.submit:hover{
+    color: #fff;
+    background-color: #00EC97;
+    border: 2px solid #00AEEA;
+    padding: 5px 20px;
+    height: 45px;
+    backdrop-filter: 50%;
+    background: linear-gradient(to bottom, #01ad6e, #00779e);
+    cursor: pointer;
 }
