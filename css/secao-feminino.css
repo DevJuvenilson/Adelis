@@ -6,3 +6,44 @@
 body{
     background-color: #96D4B3;
 }
+
+a{
+    text-decoration: none;
+}
+
+.titulo{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg); 
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ajuste{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.blusas{
+    background-color: #C1FF72;
+    padding: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.Calças{
+    background-color: #F5B82A;
+    padding: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.vestido{
+    background-color: #05957B;
+    padding: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
