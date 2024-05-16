@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Radio Canada Big", sans-serif;
 }
 
 body{
     background-color: #96D4B3;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Radio Canada Big", sans-serif;
 }
 
 body, html{
@@ -25,9 +28,17 @@ main{
     min-width: 400px;
     max-width: 600px;
     text-align: center;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.34);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.3);
+    transition: box-shadow 0.5s ease;
+}
+
+main:hover{
+    transition: 0.4s;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
 }
 
 main h1{
@@ -49,16 +60,30 @@ input{
     height: 40px;
     font-size: 18px;
     margin-bottom: 20px;
-    background-color: #fff;
-    padding-left: 50px;
+    background-color: rgb(244, 184, 42, 0.85);
+    padding-left: 45px;
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
+    color: #e8f1de;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button,
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 0;
 }
 
 input.nome{
-    background-image: url(../html/img/Cadastro/icone-usuario\(32px\).png);
+    background-image: url(../html/img/Cadastro/icone-usuario.png);
     background-repeat: no-repeat;
     background-position: 10px;
+}
+
+input.nome::placeholder{
+    color: #fff;
 }
 
 input.data{
@@ -67,10 +92,18 @@ input.data{
     background-position: 10px;
 }
 
+input.data::placeholder{
+    color: #fff;
+}
+
 input.tel{
     background-image: url(../html/img/Cadastro/telefone.png);
     background-repeat: no-repeat;
     background-position: 10px;
+}
+
+input.tel::placeholder{
+    color: #fff;
 }
 
 input.cpf{
@@ -79,35 +112,48 @@ input.cpf{
     background-position: 10px;
 }
 
+input.cpf::placeholder{
+    color: #fff;
+}
+
 input.email{
     background-image: url(../html/img/Cadastro/e-mail.png);
     background-repeat: no-repeat;
-    background-position: 10px;
+    background-position: 10px;  
+}
+
+input.email::placeholder{
+    color: #fff;
 }
 
 input.senha{
-    background-image: url(../html/img/Cadastro/cadeado-seguro\(32px\).png);
+    background-image: url(../html/img/Cadastro/cadeado-seguro.png);
     background-repeat: no-repeat;
     background-position: 10px;
 }
 
-input.submit{
+input.senha::placeholder{
     color: #fff;
-    background-color: #00EC97;
-    border: 2px solid #00AEEA;
+}
+
+input.submit{
+    color: #192c16;
+    font-weight: bold;
+    background-color: #b6f5d3;
+    border: 2px solid #84D4A9;
     padding: 5px 20px;
     height: 45px;
     width: 25%;
-    background: linear-gradient(to bottom, #00EC97, #00AEEA);
+    border-radius: 30px;
+    transition: background-color 0.5s ease;
 }
 
 input.submit:hover{
-    color: #fff;
-    background-color: #00EC97;
-    border: 2px solid #00AEEA;
+    color: #192c16;
+    background-color: #84D4A9;
+    border: 2px solid #66997e;
     padding: 5px 20px;
     height: 45px;
     backdrop-filter: 50%;
-    background: linear-gradient(to bottom, #01ad6e, #00779e);
     cursor: pointer;
 }
