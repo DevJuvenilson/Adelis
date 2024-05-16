@@ -28,17 +28,17 @@
 
             <!-- DATA DE NASCIMENTO -->
             <div>
-                <input class="data" type="text" name="data-nascimento" placeholder="Digite sua data de nascimento..." required>
+                <input class="data" type="text" name="data-nascimento" placeholder="Digite sua data de nascimento..." maxlength="10" required>
             </div>
 
             <!-- TELEFONE -->
             <div>
-                <input class="tel" type="tel" name="telefone" placeholder="Digite seu telefone..." minlength="11" maxlength="11" required>
+                <input class="tel" type="tel" name="telefone" placeholder="Digite seu telefone..." maxlength="11" required>
             </div>
 
             <!-- CPF -->
             <div>
-                <input class="cpf" type="text" name="cpf-usuario" placeholder="Digite seu CPF..." maxlength="14" required>
+                <input class="cpf" type="number" name="cpf-usuario" placeholder="Digite seu CPF..." required>
             </div>
 
             <!-- E-MAIL -->
@@ -53,9 +53,11 @@
 
             <!-- BOTÃO DE REALIZAR A COMPRA -->
             <div>
-                <input class="submit" type="submit" value="Log-In">
+                <input class="submit" type="submit" value="CONCLUIR">
             </div>
         </form>
     </main>
+
+    <script src="teste.js"></script>
 </body>
 </html>
