@@ -1,49 +1,167 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #96D4B3;
+    font-family: "Radio Canada Big", sans-serif;
+    overflow-x: hidden;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.titulo{
-    writing-mode: vertical-lr;
-    transform: rotate(180deg); 
-    color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+.clear {
+    clear: both;
 }
 
-.ajuste{
+.botão_blusas {
+    font-size: 20px;
+    background-color: #FF8A00;
+    border: none;
+    padding: 5px;
+    border-radius: 0 0 12px 12px;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 350px;
+}
+
+.botão_calças {
+    font-size: 20px;
+    background-color: #FF8A00;
+    border: none;
+    padding: 5px;
+    border-radius: 0px 0px 12px 12px;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 350px;
+}
+
+.botão_vestidos {
+    font-size: 20px;
+    background-color: #FF8A00;
+    border: none;
+    padding: 5px;
+    border-radius: 0 0 12px 12px;
+    cursor: pointer;
+    color: white;
+    height: 50px;
+    width: 350px;
+}
+
+.titulo_1 {
+    margin-top: 200px;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    float: left;
+}
+
+.titulo_2 {
+    margin-top: 150px;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.titulo_3 {
+    margin-top: 150px;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.ajuste {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
     padding: 20px;
 }
 
-.blusas{
+.blusas {
+    padding-top: 40px;
+    margin: 20px;
     background-color: #C1FF72;
-    padding: 200px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 370px;
+    width: 350px;
 }
 
-.Calças{
+.calças {
+    padding-top: 40px;
+    margin: 20px;
     background-color: #F5B82A;
-    padding: 200px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 370px;
+    width: 350px;
 }
 
-.vestido{
+.vestido {
+    padding-top: 40px;
+    margin: 20px;
     background-color: #05957B;
-    padding: 200px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
+    height: 370px;
+    width: 350px;
+}
+
+.banner{
+    width: 33%;
+    float: left;
+    font-size: 40px;
+    position: absolute;
+    height: 304px;
+    padding-top: 50px;
+}
+
+.adelis_1{
+    text-align: center;
+    color: #FF8A00;
+}
+
+.adelis_2{
+    margin-top: -60px;
+    padding-left: 145px;
+    color: #05957B;
+}
+
+.adelis_3{
+    margin-top: -60px;
+    padding-left: 170px;
+    color: #96D4B3;
+}
+
+.titulo_feminino{
+    padding-top: 50px;
+    font-size: 40px;
+    color: #05957B;
+    position: absolute;
+    left: 920px;
+    letter-spacing: 3px;
+}
+.espaçamento{
+    letter-spacing: 15px;
+}
+.posição{
+    position: relative;
 }
