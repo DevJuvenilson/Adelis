@@ -6,6 +6,7 @@
 }
 
 body{
+    margin-bottom: 80px;
     margin-left: 80px;
     margin-right: 80px;
     background-color: #96D4B3;
@@ -22,22 +23,22 @@ header{
 
 .sobre-nos-esquerda{
     background-color: #00967D;
-    width: 500px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
     text-align: justify;
 }
 
 .sobre-nos-esquerda h1{
     color: #E8E6DA;
     padding-left: 250px;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 .sobre-nos-esquerda p{
     color: #E8E6DA;
     padding-right: 50px;
     padding-left: 270px;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .paleta-cor{
@@ -80,8 +81,8 @@ header{
 }
 
 .sobre-nos-direita{
-    width: 500px;
-    height: 300px;
+    width: 700px;
+    height: 400px;
     text-align: left;
     background-color: #E8A70F;
     float: right;
@@ -89,17 +90,17 @@ header{
 
 .sobre-nos-direita > p{
     color: #DBE3D3;
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 50px;
-    padding-right: 80px;
+    padding-right: 220px;
     padding-left: 40px;
 }
 
 .sobre-nos-direita > a{
     color: #DBE3D3;
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 50px;
-    padding-left: 180px;
+    padding-left: 130px;
 }
 
 .titulo-clear{
@@ -121,9 +122,51 @@ header{
 
 .itens-infantil{
     text-align: center;
+    padding-bottom: 30px;
+}
+
+.itens-infantil > a{
+    color: #E8E6DA;
+    font-size: 30px;
 }
 
 .imagens-infantil > img{
     margin-right: 50px;
     margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.itens-feminino{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.itens-feminino > a{
+    color: #E8E6DA;
+    font-size: 30px;
+}
+
+.imagens-feminino > img{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+
+.itens-masculino{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.itens-masculino > a{
+    color: #E8E6DA;
+    font-size: 30px;
+}
+
+.imagens-masculino > img{
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 30px;
+    padding-top: 80px;
 }
