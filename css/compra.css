@@ -6,3 +6,30 @@
 body{
     background-color: #96D4B3;
 }
+
+label{
+    display: flex;
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding-left: 50px;
+    border: none;
+}
+
+.principal{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(102, 111, 120, 0.5);
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    border-radius: 15px;
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+}
