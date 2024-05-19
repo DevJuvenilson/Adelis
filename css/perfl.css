@@ -1,8 +1,79 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
+    background-color: #96D4B3;
+    font-family: "Radio Canada Big", sans-serif;
+    overflow-x: hidden;
+    display: flex;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.clear {
+    clear: both;
+}
+
+.menu_lateral {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-color: #fff;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+.menu_lateral img {
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.menu_lateral p {
+    margin-top: 16px;
+    margin-left: 100px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.perfil_nome {
+    display: inline;
+    padding: 30px;
+}
+
+.ajuste_lateral {
+    margin: 0;
+    padding: 0;
+}
+
+.ajuste_lateral img {
+    width: 40px;
+    padding: 10px 10px 10px 5px;
+}
+
+.ajuste_lateral a {
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.ajuste_lateral a:hover {
     background-color: #96D4B3;
 }
