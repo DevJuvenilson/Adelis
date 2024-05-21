@@ -10,159 +10,95 @@
     <link rel="stylesheet" href="../css/perfl.css">
 
     <!-- ÍCONE DA ABA DO NAVEGADOR -->
-    <link rel="shortcut icon" href="img/Homepage/logo-adelis.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Secao-feminino/Prancheta-1.png" type="image/x-icon">
 </head>
 
 <body>
+    
+    <div id="container">
+        <!-- CABEÇALHO - LATERAL -->
+        <header>
+            <div class="menu_lateral">
+                <div class="perfil_nome">
+                    <img src="img/Perfil/do-utilizador.png" alt="Foto de PErfil" width="100px">
 
-    <!-- CABEÇALHO -->
-    <header align="center">
+                    <p>Olá, <b>Daniel Ribeiro</b></p>
+                </div>
 
-        <!-- LOGO DA LOJA -->
-        <img src="img/Homepage/logo-adelis.jpg" alt="Logo Adelis" title="Logo Adelis" width="300px">
+                <div class="clear"></div>
 
-        <br><br><hr>
+                <div class="ajuste_lateral">
+                    <img src="img/Perfil/editar.png">
+                    <a href="#">Editar Perfil</a>
+                    <div class="clear"></div>
+                </div>
 
-        <!-- TÍTULO -->
-        <h1>Bem-vindo ao seu perfil!</h1>
+                <div class="ajuste_lateral">
+                    <img src="img/Perfil/notificacao.png">
+                    <a href="#">Notificações</a>
+                    <div class="clear"></div>
+                </div>
 
-        <hr>
-    </header>
+                <div class="ajuste_lateral">
+                    <img src="img/Perfil/informacoes.png">
+                    <a href="#">Ajuda</a>
+                    <div class="clear"></div>
+                </div>
 
-    <!-- CONTEÚDO PRINCIPAl -->
-    <main>
+                <div class="ajuste_lateral">
+                    <img src="img/Perfil/engrenagem.png">
+                    <a href="#">Configurações</a>
+                    <div class="clear"></div>
+                </div>
 
-        <!-- NAVEGAÇÃO COM BOTÔES MEUS PEDIDOS, MINHA SACOLA E MEU PERFIL -->
-        <nav align="center">
+                <div class="ajuste_lateral">
+                    <img src="img/Perfil/sair.png">
+                    <a href="#">Sair da Conta</a>
+                    <div class="clear"></div>
+                </div>
+                <span class="link_voltar">
+                    <a href="index.html">Voltar para início</a>
+                </span>
+                
+            </div>
+        </header>
+        <main>
+            <h1>Saiba Mais:</h1>
+            <div id="container-grid">
+                <div class="seus_pedidos">
+                    <span class="icone"><img src="img/Perfil/seus-pedidos.png" width="64px"></span>
+                    <span class="texto">
+                        <a href="#"><h2>Seus pedidos</h2></a>
+                        <p>Rastrear ou devolver</p>
+                    </span>
+                </div>
 
-            <!-- BOTÃO PARA MEUS PEDIDOS -->
-            <a href="#"><button>MEUS PEDIDOS</button></a>
+                <div class="reembolso">
+                    <span class="icone"><img src="img/Perfil/reembolso.png" width="64px"></span>
+                    <span class="texto">
+                        <a href="#"><h2>Reembolso</h2></a>
+                        <p>Reembolso de produtos comprados</p>
+                    </span>
+                </div>
 
-            <!-- BOTÃO PARA MEU CARRINHO -->
-            <a href="#"><button>MINHA SACOLA</button></a>
-        </nav>
+                <div class="suas_listas">
+                    <span class="icone"><img src="img/Perfil/lista-desejos.png" width="64px"></span>
+                    <span class="texto">
+                        <a href="#"><h2>Suas Listas</h2></a>
+                        <p>Gerenciar listas de desejos</p>
+                    </span>
+                </div>
 
-        <hr>
-
-        <!-- SEÇÃO PARA OS RECOMENDADOS DA PESSOA -->
-        <section class="recomendados">
-            <!-- TABELA PARA COLOCAR EM COLUNAS AS RECOMENDADOS -->
-            <table cellpadding="20" align="center">
-
-                <!-- CABEÇALHO DA TABELA DE RECOMENDADOS -->
-                <thead>
-            
-                    <!-- TÍTULO DA TABELA DE RECOMENDADOS -->
-                    <caption><h1>RECOMENDADOS</h1></caption>
-                </thead>
-            
-                <!-- CONTEÚDO DA TABELA DE RECOMENDADOS -->
-                <tbody>
-                    
-                    <!-- DIV PARA OS VESTIDOS RECOMENDADOS PARA O USUÁRIO -->
-                    <div class="vestidos-recomendados">
-
-                         <!-- PARTE DAS IMAGENS -->
-                        <tr>
-            
-                            <!-- VESTIDO PRETO -->
-                            <th><a href="compra.html"><img src="img/Secao-feminino/vestido-preto.jpg" alt="Vestido Preto" title="Vestido Preto" width="220px"></a></th>
-            
-                            <!-- VESTIDO REGATA MARROM -->
-                            <th><a href="compra.html"><img src="img/Secao-feminino/vestido-regata.jpg" alt="Vestido regata marrom" title="Vestido regata marrom" width="150px"></a></th>
-            
-                            <!-- VESTIDO VERDE -->
-                            <th><a href="compra.html"><img src="img/Secao-feminino/vestido-verde.jpg" alt="Vestido regata verde" title="Vestido regata verde" width="180px"></a></th>
-                        </tr>
-            
-                        <!-- PARTE DA DESCRIÇÃO -->
-                        <tr>
-            
-                            <!-- VESTIDO PRETO -->
-                            <td><p>Vestido Chemise Midi Manga 7/8 <br> Em Viscolinho Preto | Renner <br><br> <b>R$199,90</b></p></td>
-            
-                            <!-- VESTIDO REGATA MARROM -->
-                            <td><p>Vestido Midi Em Viscose Com Gola <br> Alta Básico Marrom | Renner <br><br><b>R$79,90</b></p></td>
-            
-                            <!-- VESTIDO VERDE -->
-                            <td><p>Vestido New Midi Em Tricoline Com <br> Latex Na Costa Verde | Renner <br><br> <b>R$219,90</b></p></td>
-                        </tr>  
-                    </div>
-
-                    <!-- DIV PARA AS CALÇAS RECOMENDADAS PARA O USUÁRIO -->
-                    <div class="calcas-recomendados">
-
-                        <!-- PARTE DAS IMAGENS -->
-                        <tr>
-
-                            <!-- CALÇA RETA SARJA BRANCA -->
-                            <th><a href="compra.html"><img src="img/Secao-feminino/calca-branca.jpg" alt="Calça Reta em Sarja Branca" title="Calça Reta em Sarja Branca" width="200px"></a></th>
-
-                            <!-- CALÇA CARGO OFF WHITE -->
-                            <th><a href="compra.html"><img src="img/Secao-feminino/calca-cargo.jpg" alt="Calça cargo off white" title="Calça cargo off white" width="270px"></a></th>
-
-                            <!-- CALÇA JEANS RETA -->
-                            <th><a href="compra.html"><img src="img/Secao-feminino/calca-jeans.jpg" alt="Calça jeans reta" title="Calça jeans reta" width="200px"></a></th>
-                        </tr>
-
-                        <!-- PARTE DA DESCRIÇÃO -->
-                        <tr>
-
-                            <!-- CALÇA RETA SARJA BRANCA -->
-                            <td><p>Calça Reta Em Sarja Com Bolsos <br>Cargo Branco | Renner <br><br> <b>R$239,90</b></p></td>
-
-                            <!-- CALÇA CARGO OFF WHITE -->
-                            <td><p>Calça Wide Leg Cintura Alta Em  <br>Sarja Com Bolsos Cargo Off White | Renner <br><br><b>R$199,90</b></p></td>
-
-                            <!-- CALÇA JEANS RETA -->
-                            <td><p>Calça Wide Leg Jeans Com Cintura <br> Alta E Pespontos Azul | Renner <br><br> <b>R$159,90</b></p></td>
-                        </tr>
-                    </div>
-
-                    <!-- DIV PARA AS BLUSAS INFANTIS RECOMENDADAS PARA O USUÁRIO -->
-                    <div class="blusas-infantis-recomendados">
-
-                        <!-- PARTE DAS IMAGENS -->
-                        <tr>
-
-                            <!-- BLUSA FLORAL MANGA CURTA -->
-                            <th><a href="compra.html"><img src="img/Secao-Infantil/Blusas/blusa-flor-secao-infantil.png" alt="Vestido com estampa de flor infantil" title="Blusa com estampa de flor infantil" width="200px"></a></th>
-
-                            <!-- CAMISETA CROPPED LISTRADO -->
-                            <th><a href="compra.html"><img src="img/Secao-Infantil/Blusas/cropped-listrado-secao-infantil.png" alt="Camiseta cropped branca com listras amarelas" title="Camiseta cropped branca com listras amarelas" width="200px"></a></th>
-
-                            <!-- REGATA CANELADA ROSA -->
-                            <th><a href="compra.html"><img src="img/Secao-Infantil/Blusas/regata-canelada-secao-infantil.png" alt="Regata canelada rosa" title="Regata canelada rosa" width="200px"></a></th>
-                        </tr>
-
-                        <!-- PARTE DA DESCRIÇÃO -->
-                        <tr>
-
-                            <!-- BLUSA FLORAL MANGA CURTA -->
-                            <td><p>Blusa Infantil Manga Curta Floral <br>Multicor | Carter's <br><br> <b>R$139,90</b></p></td>
-
-                            <!-- CAMISETA CROPPED LISTRADO -->
-                            <td><p>Camiseta Cropped Infantil Listrada <br>4-10A Amarela | Pool By Riachuelo <br><br><b>R$29,90</b></p></td>
-
-                            <!-- REGATA CANELADA ROSA -->
-                            <td><p>Regata Infantil Canelada 4-10A <br> Rosa | Pool By Riachuelo <br><br> <b>R$39,90</b></p></td>
-                        </tr>
-                    </div>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- BOTÃO VOLTAR PARA A PÁGINA PRINCIPAL -->
-        <a href="index.html">Voltar</a>
-    </main>
-
-    <hr>
-
-    <!-- RODAPÉ -->
-    <footer>
-        <!-- COPYRIGHT -->
-        <p align="center"><small>Copyright 2024 - Todos os direitos reservados &copy; Adelis</small></p>
-    </footer>
+                <div class="atendimento">
+                    <span class="icone"><img src="img/Perfil/ajuda.png" width="64px"></span>
+                    <span class="texto">
+                        <a href="#"><h2>Atendimento ao Cliente</h2></a>
+                        <p>Artigos de ajuda ou fale conosco</p>
+                    </span>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 
 </html>

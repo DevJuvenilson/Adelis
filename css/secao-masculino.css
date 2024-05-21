@@ -1,8 +1,146 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #96D4B3;
+    font-family: "Radio Canada Big", sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.Principal{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.botao_camisetas {
+    font-size: 20px;
+    background-color: #FF8A00;
+    border: none;
+    padding: 5px;
+    border-radius: 0 0 12px 12px;
+    color: white;
+    height: 50px;
+    width: 350px;
+}
+
+.botao_camisetas:hover{
+    cursor: pointer;
+    background-color: #e0861f;
+}
+
+.botao_calcas {
+    font-size: 20px;
+    background-color: #FF8A00;
+    border: none;
+    padding: 5px;
+    border-radius: 0px 0px 12px 12px;
+    color: white;
+    height: 50px;
+    width: 350px;
+}
+
+.botao_calcas:hover{
+    cursor: pointer;
+    background-color: #e0861f;
+}
+
+.botao_bermudas {
+    font-size: 20px;
+    background-color: #FF8A00;
+    border: none;
+    padding: 5px;
+    border-radius: 0 0 12px 12px;
+    color: white;
+    height: 50px;
+    width: 350px;
+}
+
+.botao_bermudas:hover{
+    cursor: pointer;
+    background-color: #e0861f;
+}
+
+.titulo_1 {
+    margin-top: 140px;
+    margin-left: 80px;
+    font-size: 25px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    float: left;
+}
+
+.titulo_2 {
+    margin-top: 150px;
+    font-size: 25px;
+    margin-left: 80px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.titulo_3 {
+    margin-top: 150px;
+    font-size: 25px;
+    margin-left: 80px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.ajuste {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.camisetas {
+    padding-top: 40px;
+    margin: 20px;
+    background-color: #C1FF72;
+    text-align: center;
+    border-radius: 20px;
+    height: 370px;
+    width: 350px;
+}
+
+.calcas {
+    padding-top: 40px;
+    margin: 20px;
+    background-color: #F5B82A;
+    text-align: center;
+    border-radius: 20px;
+    height: 370px;
+    width: 350px;
+}
+
+.bermudas {
+    padding-top: 40px;
+    margin: 20px;
+    background-color: #05957B;
+    text-align: center;
+    border-radius: 20px;
+    height: 370px;
+    width: 350px;
 }
