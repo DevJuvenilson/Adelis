@@ -17,8 +17,55 @@ header{
     margin-bottom: 30px;
 }
 
-.navegacao{
+.banner{
     margin-bottom: 70px;
+    background-image: linear-gradient(to right, #FB8F02 , #E8A70F);
+    height: 300px;
+    display: flex;
+}
+
+.adelis{
+    color: #05957B;
+    padding-left: 80px;
+    padding-top: 60px;
+    font-size: 60px;
+}
+
+.cadastro{
+    text-align: right;
+    padding-top: 35px;
+    padding-left: 600px;
+}
+
+.cadastro>a{
+    font-size: 25px;
+    color: #E8E6DA;
+}
+
+.pesquisa{
+    padding-top: 70px;
+    border-bottom: #E8E6DA solid 5px;
+    width: 260px;
+}
+
+.pesquisa>input{
+    background-color: #E8A70F;
+    border: none;
+    font-size: 25px;
+    width: 200px;
+    color: #E8E6DA;
+}
+
+.pesquisa>input:hover{
+    background-color: #cc930e;
+}
+
+.pesquisa>input::placeholder{
+    color: #E8E6DA;
+}
+
+.pesquisa>img{
+    padding-right: 10px;
 }
 
 .sobre-nos-esquerda{
@@ -42,8 +89,6 @@ header{
 }
 
 .paleta-cor{
-    padding: 0;
-    margin: 0;
     width: 100%;
     height: 150px;
     text-align: center;
@@ -110,11 +155,6 @@ header{
     font-size: 60px;
 }
 
-.carrossel-banner{
-    margin: 0;
-    padding: 0;
-}
-
 .colecao-inverno-verao{
     margin: 50px;
     text-align: center;
@@ -148,7 +188,6 @@ header{
 }
 
 .imagens-feminino > img{
-    margin-right: 50px;
     margin-left: 50px;
     padding-bottom: 30px;
     padding-top: 80px;
@@ -165,15 +204,7 @@ header{
 }
 
 .imagens-masculino > img{
-    margin-right: 50px;
     margin-left: 50px;
     padding-bottom: 30px;
     padding-top: 80px;
 }
-
-/*footer{
-    background-color: #00967D;
-    margin: 0 auto;
-    text-align: center;
-    height: 50px;
-}*/

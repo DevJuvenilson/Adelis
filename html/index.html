@@ -27,8 +27,19 @@
 
         <!-- NAVEGAÇÃO COM BOTÔES DE PESQUISA, PERFIL E SACOLA DE COMPRAS FICTÍCIO -->
         <nav class="navegacao">
-            <!-- BARRA DE PESQUISA FICTÍCIA -->
-            <a href="cadastro-perfil.html"><img src="img/Homepage/banner-pesquisa.png" width="100%"></a>
+            <div class="banner">
+                <div class="adelis">
+                    <h1>ADE.lis</h1>
+                </div>
+                <div class="cadastro">
+                    <a href="cadastro-perfil.html">cadastre-se</a>
+                    <div class="pesquisa">
+                        <img src="img/Homepage/lupa.png" width="40px">
+                        <input type="text" placeholder="buscar">
+                    </div>
+                </div>
+                
+            </div>
         </nav>
 
         <!-- TABELA COM SOBRE NÓS E REDES SOCIAIS -->
@@ -58,7 +69,8 @@
             <!-- SOBRE NÓS DA DIREITA COM SAIBA MAIS -->
             <div class="sobre-nos-direita">
                 <p>roupas de qualidade por um preço mais acessivel.</p>
-                <a class="link" href="#">saiba mais aqui</a> 
+                <a class="link" href="#">saiba mais aqui</a>
+                <img src="" alt="">
             </div>
         </section> <!-- FIM DA SEÇÃO SOBRE NÓS -->
 
@@ -68,15 +80,16 @@
         <!-- SEÇÃO DE CARROSSEL COM BANNERS DOS PRODUTOS DA LOJA -->
         <section class="carrossel-banner">
             <a href="compra.html"><img src="img/Homepage/carrossel-banner.png" alt="Carrossel com banners" width="100%"></a>
+            <div class="paleta-cor">
+                <div class="verde-claro"></div>
+                <div class="verde-escuro"></div>
+                <div class="branco"></div>
+                <div class="laranja"></div>
+                <div class="amarelo"></div>
+            </div>
         </section> <!-- FIM DA SEÇÃO CARROSSEL BANNERS -->
 
-        <div class="paleta-cor">
-            <div class="verde-claro"></div>
-            <div class="verde-escuro"></div>
-            <div class="branco"></div>
-            <div class="laranja"></div>
-            <div class="amarelo"></div>
-        </div>
+        
 
         <!-- SEÇÃO DE CARROSSEL COM LOGOS DAS MARCAS QUE TEMOS NA NOSSA LOJA -->
         <section class="carrossel-parceiros">
@@ -116,12 +129,12 @@
         <section class="itens-feminino">
 
             <!-- TÍTULO DA SEÇÃO EM IMAGEM -->
-            <picture>
+            <div>
                 <img src="img/Homepage/banner-feminino.png" width="100%">
-            </picture>
+            </div>
 
             <!-- IMAGENS FEMININO -->
-            <section class="imagens-feminino">
+            <div class="imagens-feminino">
                 <!-- IMAGEM MOÇA COM TOP BRANCO -->
                 <img src="img/Homepage/secao-feminino-esquerdo.png" width="300">
                 
@@ -130,7 +143,7 @@
                 
                 <!-- IMAGEM MOÇA COM VESTIDO-->
                 <img src="img/Homepage/secao-feminino-direito.png" width="300">
-            </section> <!-- FIM DA SEÇÃO DE IMAGENS -->
+            </div> <!-- FIM DA SEÇÃO DE IMAGENS -->
 
             <!-- NOME DA SEÇÃO COM O LINK PARA SUA RESPECTIVA SEÇÃO -->
             <a href="secao-feminino.html"><h1>FEMININO</h1></a>
