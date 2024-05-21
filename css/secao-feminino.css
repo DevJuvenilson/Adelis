@@ -36,6 +36,11 @@ a {
     width: 350px;
 }
 
+.botão_blusas:hover{
+    cursor: pointer;
+    background-color: #e0861f;
+}
+
 .botão_calças {
     font-size: 20px;
     background-color: #FF8A00;
@@ -48,6 +53,11 @@ a {
     width: 350px;
 }
 
+.botão_calças:hover{
+    cursor: pointer;
+    background-color: #e0861f;
+}
+
 .botão_vestidos {
     font-size: 20px;
     background-color: #FF8A00;
@@ -58,6 +68,11 @@ a {
     color: white;
     height: 50px;
     width: 350px;
+}
+
+.botão_vestidos:hover{
+    cursor: pointer;
+    background-color: #e0861f;
 }
 
 .titulo_1 {
