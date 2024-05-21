@@ -8,61 +8,99 @@
     <!-- ARQUIVO CSS -->
     <link rel="stylesheet" href="../css/compra.css">
 
-    <link rel="shortcut icon" href="img/Homepage/logo-adelis.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Secao-feminino/Prancheta-1.png" type="image/x-icon">
 </head>
 <body>
 
     <!-- CABEÇALHO -->
     <header>
 
-        <!-- TÍTULO -->
-        <h1>PAGINA DE COMPRA</h1>
     </header>
 
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
-        <div class="principal">
-            <form action="#" method="post">
-            
-                <!-- DADOS DE COMPRA -->
-                    <!-- TÍTULO DO CAMPO -->
-                    <legend>ENDEREÇO DE ENTREGA</legend>
-                        <!-- NOME DO USUARIO -->
-                        <label>Nome completo</label>
-                        <input type="text" name="nome" placeholder="Digite seu nome" required>
-                        
-                        <!-- NUMERO DE TELEFONE -->
-                        <label>Telefone</label>
-                        <input type="tel" name="Telelfone" placeholder="Numero de telefone" maxlength="11" required>
-                        
-                        <!-- CEP -->
-                        <label>CEP</label>
-                        <input type="number" name="CEP" placeholder="Digite seu CEP" maxlength="9" required>
-                        
-                        <!-- CIDADE -->
-                        <label>Cidade</label>
-                        <input type="text" name="Cidade" placeholder="Cidade" required>
-
-                        <!-- BAIRRO -->
-                        <label>Bairro</label>
-                        <input type="text" name="Bairro" placeholder="Bairro" required>
-
-                        <!-- ENDEREÇO -->
-                        <label>Endereço</label>
-                        <input type="text" name="Endereço" placeholder="Endereço para entrega" required>
-                        
-                        <!-- NUMERO DE RESIDÊNCIA -->
-                        <label>Número da residência</label>
-                        <input type="text" name="Número" placeholder="Número da residência" required>
+        <div class="container">
+            <div class="principal">
+                <form action="#" method="post">
                 
-                <!-- BOTÃO DE REALIZAR A COMPRA -->
-                <button type="submit">COMPRAR</button>
-            </form>
-            
-            <a href="index.html">Voltar</a>
-        </div>
-        <!-- BOTÃO VOLTAR PARA A PÁGINA PRINCIPAL -->
+                    <!-- DADOS DE COMPRA -->
+                        <div class="legenda">
+                            <legend>ENDEREÇO PARA COBRANÇA</legend>
+                        </div>
+                        <!-- NOME DO USUARIO -->
+                        <div>
+                            <label>Nome completo :</label>
+                            <input class="input_endereço" type="text" name="nome" placeholder="Digite seu nome" required>
+                        </div>
         
+                        <!-- NUMERO DE TELEFONE -->
+                        <div>
+                            <label>Telefone :</label>
+                            <input class="input_endereço" type="tel" name="Telelfone" placeholder="Numero de telefone" maxlength="11" required>
+                        </div>
+        
+                        <!-- CEP -->
+                        <div>
+                            <label>CEP :</label>
+                            <input class="input_endereço" type="number" name="CEP" placeholder="Digite seu CEP" maxlength="9" required>
+                        </div>
+        
+                        <!-- CIDADE -->
+                        <div>
+                            <label>Cidade :</label>
+                            <input class="input_endereço" type="text" name="Cidade" placeholder="Cidade" required>
+                        </div>
+        
+                        <!-- NUMERO DE RESIDÊNCIA -->
+                        <div>
+                            <label>Número da residência :</label>
+                            <input class="input_endereço" type="number" name="Número" placeholder="Número da residência" required>
+                        </div>
+                </form> 
+
+                <form action="#" method="post">
+                
+                    <!-- DADOS DE COMPRA -->
+                        <div class="legenda">
+                            <legend>PAGAMENTO</legend>
+                        </div>
+
+                        <!-- NOME DO USUARIO -->
+                        <div>
+                            <label>Cartões aceitos :</label>
+                            <img src="img/Homepage/cartões.png" alt="cartões" width="250px" height="45px">
+                        </div>
+        
+                        <!-- NUMERO DE TELEFONE -->
+                        <div>
+                            <label>Nome no cartão :</label>
+                            <input class="input_endereço" type="tel" name="Telelfone" placeholder="Nome" maxlength="11" required>
+                        </div>
+        
+                        <!-- CEP -->
+                        <div>
+                            <label>Número do cartão :</label>
+                            <input class="input_endereço" type="number" name="CEP" placeholder="1234 5678 9123 4567" maxlength="16" required>
+                        </div>
+        
+                        <!-- CIDADE -->
+                        <div>
+                            <label>Validade :</label>
+                            <input class="input_endereço" type="text" name="Cidade" placeholder="mês/ano" required>
+                        </div>
+        
+                        <!-- BAIRRO -->
+                        <div>
+                            <label>CVV :</label>
+                            <input class="input_endereço" type="number" name="Bairro" placeholder="123" required>
+                        </div>
+                </form> 
+            </div>
+            <div class="botão"><a href="compra-final.html"><button type="submit">ENVIAR</button></a></div>
+        </div>
+        
+        
+        <!-- BOTÃO VOLTAR PARA A PÁGINA PRINCIPAL -->
     </main>
 </body>
 </html>
