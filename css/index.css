@@ -1,6 +1,7 @@
 
 /* FONTE IMPORTADA */
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* ZERANDO MARGIN E PADDING PADRÃO */
 *{
@@ -177,6 +178,7 @@ header{
     color: #F5B82A;
     padding-left: 20px;
     font-size: 60px;
+    font-family: "Playfair Display", serif;
 }
 
 /* ESTILIZANDO AS DIVISÕES DAS COLEÇÕES */
