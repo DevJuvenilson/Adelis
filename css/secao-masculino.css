@@ -72,6 +72,7 @@ a {
     background-color: #e0861f;
 }
 
+/* deixa o titulo na vertical - titulo da camiseta */
 .titulo_1 {
     margin-top: 140px;
     margin-left: 80px;
@@ -82,6 +83,7 @@ a {
     float: left;
 }
 
+/* deixa o titulo na vertical - titulo da calça */
 .titulo_2 {
     margin-top: 150px;
     font-size: 25px;
@@ -89,12 +91,10 @@ a {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     float: left;
 }
 
+/* deixa o titulo na vertical - titulo da bermuda */
 .titulo_3 {
     margin-top: 150px;
     font-size: 25px;
@@ -102,12 +102,11 @@ a {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     float: left;
 }
 
+/* ajusta as div em linha horizontal */
 .ajuste {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
