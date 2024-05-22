@@ -1,12 +1,15 @@
+
+/* FONTE IMPORTADA */
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
 
+/* ZERANDO MARGIN E PADDING PADRÃO */
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     margin-left: 80px;
     margin-right: 80px;
     background-color: #96D4B3;
@@ -17,6 +20,7 @@ header{
     margin-bottom: 30px;
 }
 
+/* ESTILIZANDO BANNER DE PESQUISA E CADASTRO */
 .banner{
     margin-bottom: 70px;
     background-image: linear-gradient(to right, #FB8F02 , #E8A70F);
@@ -24,6 +28,7 @@ header{
     display: flex;
 }
 
+/* ESTILIZANDO TÍTULO DO BANNER */
 .adelis{
     color: #05957B;
     padding-left: 80px;
@@ -31,23 +36,27 @@ header{
     font-size: 60px;
 }
 
+/* ESTILIZANDO CADASTRO */
 .cadastro{
     text-align: right;
     padding-top: 35px;
     padding-left: 600px;
 }
 
+/* ESTILIZANDO LINK DO CADASTRO */
 .cadastro>a{
     font-size: 25px;
     color: #E8E6DA;
 }
 
+/* ESTILIZANDO A DIVISÃO DE PESQUISA */
 .pesquisa{
     padding-top: 70px;
     border-bottom: #E8E6DA solid 5px;
     width: 260px;
 }
 
+/* ESTILIZANDO INPUT DE PESQUISA */
 .pesquisa>input{
     background-color: #E8A70F;
     border: none;
@@ -56,18 +65,22 @@ header{
     color: #E8E6DA;
 }
 
+/* ESTILIZANDO INPUT DE PESQUISA COM HOVER */
 .pesquisa>input:hover{
     background-color: #cc930e;
 }
 
+/* ESTILIZANDO PLACEHOLDER DO INPUT DE PESQUISA */
 .pesquisa>input::placeholder{
     color: #E8E6DA;
 }
 
+/* ESTILIZANDO IMAGEM DA DIVISÃO DE PESQUISA */
 .pesquisa>img{
     padding-right: 10px;
 }
 
+/* ESTILIZANDO SOBRE NOS DA ESQUERDA */
 .sobre-nos-esquerda{
     background-color: #00967D;
     width: 700px;
@@ -75,12 +88,14 @@ header{
     text-align: justify;
 }
 
+/* ESTILIZANDO TITULO DO SOBRE NOS DA ESQUERDA */
 .sobre-nos-esquerda h1{
     color: #E8E6DA;
     padding-left: 250px;
     font-size: 80px;
 }
 
+/* ESTILIZANDO O TEXTO DO SOBRE NOS DA ESQUERDA */
 .sobre-nos-esquerda p{
     color: #E8E6DA;
     padding-right: 50px;
@@ -88,6 +103,7 @@ header{
     font-size: 45px;
 }
 
+/* ESTILIZANDO PALETA DE COR DIVISORIA */
 .paleta-cor{
     width: 100%;
     height: 150px;
@@ -95,30 +111,35 @@ header{
     display: flex;
 }
 
+/* ESTILIZANDO A COR AMARELA */
 .amarelo{
     width: 20%;
     height: 45px;
     background-color: #F5B82A;
 }
 
+/* ESTILIZANDO A COR LARANJA */
 .laranja{
     width: 20%;
     height: 45px;
     background-color: #DB6816;
 }
 
+/* ESTILIZANDO A COR BRANCA */
 .branco{
     width: 20%;
     height: 45px;
     background-color: #F5E7D3;
 }
 
+/* ESTILIZANDO A COR VERDE ESCURO */
 .verde-escuro{
     width: 20%;
     height: 45px;
     background-color: #00967D;
 }
 
+/* ESTILIZANDO A COR VERDE CLARO */
 .verde-claro{
     width: 20%;
     height: 45px;
@@ -133,6 +154,7 @@ header{
     float: right;
 }
 
+/* ESTILIZANDO TEXTO DO SOBRE NOS DA DIREITA */
 .sobre-nos-direita > p{
     color: #DBE3D3;
     font-size: 50px;
@@ -141,6 +163,7 @@ header{
     padding-left: 40px;
 }
 
+/* ESTILIZANDO O LINK DO SOBRE NOS DA DIREITA */
 .sobre-nos-direita > a{
     color: #DBE3D3;
     font-size: 30px;
@@ -148,6 +171,7 @@ header{
     padding-left: 130px;
 }
 
+/* ESTILIZANDO TITULO COM CLEAR */
 .titulo-clear{
     clear: both;
     color: #F5B82A;
@@ -155,56 +179,72 @@ header{
     font-size: 60px;
 }
 
+/* ESTILIZANDO AS DIVISÕES DAS COLEÇÕES */
 .colecao-inverno-verao{
     margin: 50px;
     text-align: center;
 }
 
+/* ESTILIZANDO AS IMAGENS DAS COLEÇÕES */
+.colecao-inverno-verao>img{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+/* ESTILIZANDO OS ITENS INFANTIL */
 .itens-infantil{
     text-align: center;
     padding-bottom: 30px;
 }
 
+/* ESTILIZANDO O LINK */
 .itens-infantil > a{
     color: #E8E6DA;
     font-size: 30px;
 }
 
+/* ESTILIZANDO AS IMAGENS DA SEÇÃO INFANTIL */
 .imagens-infantil > img{
-    margin-right: 50px;
+    margin-right: 20px;
     margin-left: 50px;
     padding-bottom: 30px;
     padding-top: 80px;
 }
 
+/* ESTILIZANDO OS ITENS FEMININOS */
 .itens-feminino{
     text-align: center;
     padding-bottom: 30px;
 }
 
+/* ESTILIZANDO O LINK DA SEÇÃO INFANTIL */
 .itens-feminino > a{
     color: #E8E6DA;
     font-size: 30px;
 }
 
+/* ESTILIZANDO AS IAMGENS DA SEÇÃO INFANTIL */
 .imagens-feminino > img{
     margin-left: 50px;
     padding-bottom: 30px;
     padding-top: 80px;
 }
 
+/* ESTILIZANDO OS ITENS MASCULINOS */
 .itens-masculino{
     text-align: center;
     padding-bottom: 30px;
 }
 
+/* ESTILIZANDO O LINK DA SEÇÃO MASCULINO */
 .itens-masculino > a{
     color: #E8E6DA;
     font-size: 30px;
 }
 
+/* ESTILIZANDO AS IMAGENS DA SEÇÃO MASCULINO */
 .imagens-masculino > img{
-    margin-left: 50px;
+    margin-left: 30px;
     padding-bottom: 30px;
     padding-top: 80px;
 }
