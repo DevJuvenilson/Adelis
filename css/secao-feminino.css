@@ -19,7 +19,7 @@ a {
     clear: both;
 }
 
-.Principal{
+.Principal {
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -36,7 +36,7 @@ a {
     width: 350px;
 }
 
-.botão_blusas:hover{
+.botão_blusas:hover {
     cursor: pointer;
     background-color: #e0861f;
 }
@@ -53,7 +53,7 @@ a {
     width: 350px;
 }
 
-.botão_calças:hover{
+.botão_calças:hover {
     cursor: pointer;
     background-color: #e0861f;
 }
@@ -70,11 +70,12 @@ a {
     width: 350px;
 }
 
-.botão_vestidos:hover{
+.botão_vestidos:hover {
     cursor: pointer;
     background-color: #e0861f;
 }
 
+/* deixa o titulo na vertical - titulo da blusa */
 .titulo_1 {
     margin-top: 200px;
     font-size: 25px;
@@ -84,30 +85,27 @@ a {
     float: left;
 }
 
+/* deixa o titulo na vertical - titulo da calça */
 .titulo_2 {
     margin-top: 150px;
     font-size: 25px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     float: left;
 }
 
+/* deixa o titulo na vertical - titulo do vestido */
 .titulo_3 {
     margin-top: 150px;
     font-size: 25px;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     float: left;
 }
 
+/* ajusta as div em linha horizontal */
 .ajuste {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -145,7 +143,7 @@ a {
     width: 350px;
 }
 
-.banner{
+.banner {
     width: 33%;
     float: left;
     font-size: 40px;
@@ -154,24 +152,28 @@ a {
     padding-top: 50px;
 }
 
-.adelis_1{
+/* titulo do banner */
+.adelis_1 {
     text-align: center;
     color: #FF8A00;
 }
 
-.adelis_2{
+/* titulo do banner */
+.adelis_2 {
     margin-top: -60px;
     padding-left: 145px;
     color: #05957B;
 }
 
-.adelis_3{
+/* titulo do banner */
+.adelis_3 {
     margin-top: -60px;
     padding-left: 170px;
     color: #96D4B3;
 }
 
-.titulo_feminino{
+/* titulo do banner */
+.titulo_feminino {
     padding-top: 50px;
     font-size: 40px;
     color: #05957B;
@@ -180,10 +182,11 @@ a {
     letter-spacing: 3px;
 }
 
-.espaçamento{
+/* espaçamento entre as letras da palavra "minino" do titulo "feminino" */
+.espaçamento {
     letter-spacing: 15px;
 }
 
-.posição{
+.posição {
     position: relative;
 }
